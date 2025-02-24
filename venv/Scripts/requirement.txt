@@ -1,0 +1,8 @@
+selenium
+webdriver_manager
+Pillow
+pytesseract
+pandas
+tqdm
+nest_asyncio
+python-telegram-bot
