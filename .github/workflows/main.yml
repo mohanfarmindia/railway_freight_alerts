@@ -31,5 +31,7 @@ jobs:
       - name: Run Python script
         env:
           # If you need any environment variables, define them here
+          # For example:
+          # BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
         run: |
           python server_ready_alerts_modified.py
