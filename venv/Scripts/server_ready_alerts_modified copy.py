@@ -18,7 +18,7 @@ from tqdm import tqdm
 from datetime import datetime, timedelta
 
 # Set the path for Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r"tesseract-ocr-w64-setup-5.5.0.20241111 (1).exe"
+pytesseract.pytesseract.tesseract_cmd = r"C:\Users\intel\OneDrive\Documents\FarmIndia_python\railway_frieght_charge_scrapper\tesseract.exe"
 
 # C:\Users\intel\OneDrive\Documents\FarmIndia_python\railway_frieght_charge_scrapper\tesseract.exe
 # Function to solve CAPTCHA with retry logic
