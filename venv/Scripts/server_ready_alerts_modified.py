@@ -238,6 +238,7 @@ from datetime import datetime, timedelta
 from telegram import Bot
 import nest_asyncio
 import asyncio
+from dotenv import load_dotenv
 
 # Apply nest_asyncio to allow nested event loops
 nest_asyncio.apply()
@@ -246,7 +247,8 @@ nest_asyncio.apply()
 pickle_file_path = 'data.pkl'
 log_file_path = 'sent_rows_log.pkl'
 last_run_log_path = 'last_run.log'  # Path to the last run log file
-BOT_TOKEN = "7836500041:AAHOL2jJ8WGrRVeAnjJ3a354W6c6jgD22RU"
+load_dotenv()  # Loads variables from .env
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_IDS = {
     8147978368: "Mohan FarmIndia",
     499903657: "Mohan Personal",
